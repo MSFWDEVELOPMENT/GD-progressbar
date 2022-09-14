@@ -1,9 +1,9 @@
 # UwU-progressbar
 
-## Preview Pictures
-![Preview Screenshot](https://imgur.com/OrzgBjI.jpeg)
+# steps to install UwU-progressbar
 
-* If you need any help join my discord server
+* step 1 - drag and drop UwU-progressbar into your [standalone] folder
+* step 2 - restart your server
 
 ## Discord
 - [Discord](https://discord.gg/V6PD44awSR)
