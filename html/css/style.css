@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.progress-container {
+    display: none;
+    z-index: 5;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 15%;
+    position: fixed;
+    bottom: 12.65%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-labels {
+    width: 150%;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.progress-labels div {
+    font-size: 1.6vh;
+    line-height: 4vh;
+    position: absolute;
+	top: -30px;
+	left: -0px;
+    color: #ffffff;
+    z-index: 10;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress-bar-container {
+    width: 150%;
+    height: 0.4vh;
+    background: rgba(0, 0, 0, 0.246);
+    text-align: left;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    border-radius: 10px;
+	border: 1px solid rgb(0, 0, 0);
+}
+
+.progress-bar {
+    background: #d67200;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d67200, #d67200);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d67200, #d67200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+    width: 0%;
+    height: 4vh;
+    transition: width 0.3s;
+    transition-timing-function: ease-out;
+}
