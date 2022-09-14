@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'MrRebel'
+author 'GodsDevelopment'
 description 'progressbar'
 version '1.0.0'
 
