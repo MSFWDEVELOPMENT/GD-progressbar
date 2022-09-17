@@ -17,4 +17,4 @@
 
 # credits -
 
-# GODS DEVELOPMENT , rebel ❤️
+# GODS DEVELOPMENT , REBEL ❤️
